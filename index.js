@@ -26,6 +26,6 @@ app.post('/', async (req, res) => {
   
 })
 
-app.listen(4000, () => {
+app.listen(() => {
   console.log('funcionando!')
 });
